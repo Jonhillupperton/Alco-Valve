@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    text-align: left;
+    color: black;
+    max-width: 1366px;
+     display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+p {
+    line-height: 1.375;
+}
+
+/* Header  */
+.header1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1.5rem 2rem 1rem 8.75rem;
+}
+
+.search-field {
+    border: none;
+    text-align: right;
+    font-weight: bold;
+}
+
+.btn-search {
+    border: none;
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 1rem 8rem 1rem 8rem;
+}
+
+.navbar a {
+    text-align: left;
+    border-bottom: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding: 0 7.5rem 0 0;
+}
+
+/* Section 1  */
+.section1 {
+    background-image: url(images/Image_Spanner\ tightening\ valve1.png);
+    background-size: fill;
+    background-repeat: no-repeat;
+}
+
+.section1__subsection img {
+    padding: 12.325rem 65.739rem 3.688rem 8.75rem;
+}
+
+.section1 h1 {
+    font-size: 5rem;
+    padding: 0rem 8.75rem 3rem 8.75rem;
+    color: white;
+}
+
+.section1 button {
+    margin: 0 0 27.58rem 8.75rem;
+    padding: 0.625rem 2.625rem;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.125rem;
+    clip-path: polygon(9% 0, 100% 0, 91% 100%, 0% 100%);
+}
+
+/* Section 2 */
+
+.colouredshape {
+    background-size: cover;
+    background-repeat: no-repeat;
+    mix-blend-mode: multiply;
+    margin-top: -32rem;
+    position: absolute;
+}
+
+.section2 {
+    background-color:#BE0000;
+    display: flex;
+    position: relative ;
+}
+
+.section2 img {
+    padding: 5rem 0 0 8.75rem;
+}
+
+.section2 h1 {
+    font-size: 2.5rem;
+    padding: 0 0 0 8.75rem;
+}
+
+.section2 p {
+   padding: 0.625rem 0 0 14.563rem;
+}
+
+.valves {
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 20% 1fr;
+    grid-template-rows: 20% 1fr;
+    margin: 0 -17rem -16rem 0;
+}
+
+.section2 button {    
+    margin: 1.5rem 0 0 8.75rem;
+    padding: 0.625rem 2.625rem;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.125rem;
+    clip-path: polygon(9% 0, 100% 0, 91% 100%, 0% 100%);
+}
+
+/* Section 3  */
+
+.section3 {
+    background-image: url(images/Image_Spanner\ tightening\ valve.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.number {
+    padding: 3.5rem 0 0 8.75rem;
+    position: relative;
+}
+
+.alco {
+    padding: 0 0 1rem 8.75rem;
+}
+
+.fortyyears {
+    padding: 0 0 0 8.75rem;
+}
+
+.section3 h1 {
+    padding: 0 0 15rem 8.75rem;
+    position: relative;
+    font-size: 2.5rem;
+    letter-spacing: 0.8px;
+}
+
+.section3 p {
+    padding: 0.625rem  47.426rem 31.471rem 14.563rem;
+}
+
+/* pop up box  */
+
+.popup {
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+    }
+    
+    .popup  {
+    width: 1366.18px;
+    background-color: white;
+    color: #BE0000;
+    text-align: center;
+    padding: 12px 0;
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    top: 1170px;
+    }
+    
+    .popuptext::after {
+    content: "I agree";
+    position: absolute;
+    color: white;
+    margin-left: 25px;
+    width: 116px;
+    background-color: #BE0000;
+    clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+    }
