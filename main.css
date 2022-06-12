@@ -8,7 +8,7 @@ body {
     text-align: left;
     color: black;
     max-width: 1366px;
-     display: flex;
+    display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     color: white;
@@ -19,6 +19,7 @@ p {
 }
 
 /* Header  */
+
 .header1 {
     display: flex;
     flex-direction: row;
@@ -56,8 +57,9 @@ p {
 }
 
 /* Section 1  */
+
 .section1 {
-    background-image: url(images/Image_Spanner\ tightening\ valve1.png);
+    background-image: url(Image_Spanner\ tightening\ valve1.png);
     background-size: fill;
     background-repeat: no-repeat;
 }
@@ -134,7 +136,7 @@ p {
 /* Section 3  */
 
 .section3 {
-    background-image: url(images/Image_Spanner\ tightening\ valve.png);
+    background-image: url(Image_Spanner\ tightening\ valve.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
